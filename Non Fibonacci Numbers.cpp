@@ -1,7 +1,7 @@
 //Program to Generate Non Fibonacci Numbers upto nth Fibonacci
 #include<bits/stdc++.h>
 using namespace std;
-int fiboEven(int n)
+int NonFibo(int n)
 {
 	int a=1,b=1,c,j=1;
 	for(int i=1;i<=n;i++)
@@ -25,6 +25,6 @@ int main()
 	cout<<"Enter Range:";
 	cin>>n;
 	cout<<"Non fibonacci Numbers are:"<<endl;
-	fiboEven(n);
+	NonFibo(n);
 	return 0;
 }
